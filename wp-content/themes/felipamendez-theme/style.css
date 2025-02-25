@@ -62,7 +62,6 @@ section {
 }
 
 table {
-	/* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;
 	border-spacing: 0;
 }
@@ -399,7 +398,7 @@ Theme Elements with wp-admin equivalents.
 @media (max-width: 600px) {
 	.entry-header .entry-title,
 	.editor-post-title__input {
-		font-size: 32px;
+		font-size: 31px;
 	}
 }
 
