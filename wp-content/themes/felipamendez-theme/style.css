@@ -373,7 +373,7 @@ Theme Elements with wp-admin equivalents.
 -------------------------------------------------------------- */
 .entry-header .entry-title,
 .editor-post-title__input {
-	/* The blog title in the editor. */
+	/* The blog title in the block editor. */
 	font-size: 42px;
 	font-weight: 600;
 	margin: 0;
