@@ -20,18 +20,18 @@ endif;
 
 <style>
     a.button-toggle {
-        border-color: #2a99ff;
-        color: #2a99ff;
+        border-color: #6a0d83;
+        color: #6a0d83;
     }
 
     a.button-toggle.active {
-        border-color: #005A8B !important;
-        color: #005A8B !important;
+        border-color: #ee5d6c !important;
+        color: #ee5d6c !important;
     }
 
     a.button-toggle:hover {
-        color: #005A8B !important;
-        border-color: #005A8B !important;
+        color: #ee5d6c !important;
+        border-color: #ee5d6c !important;
     }
 
     .post-list {
@@ -85,8 +85,7 @@ endif;
 
     
     h1, h2, h3, h4, h5, h6 {
-       
-        color: #005A8B; 
+        color: #6a0d83 !important; 
     }
 
     h1 { font-size: 3.9rem; }
@@ -98,14 +97,14 @@ endif;
 
    
     a {
-        color: #2a99ff;
+        color: #ee5d6c;
         text-decoration: none;
         font-weight: 500; 
         transition: color 0.3s ease;
     }
 
     a:hover {
-        color: #0674f5;
+        color: #fb9062;
         
     }
 
@@ -139,13 +138,13 @@ endif;
     .post-list h2 {
         
         font-size: 1.8rem;
-        color: #005A8B !important;
+        color: #6a0d83 !important;
         margin-bottom: 0.5rem;
         padding-bottom: 0.5rem;
     }
 
     h2 > a {
-        color: #005A8B !important;
+        color: #fb9062 !important;
     }
 
     /* Text within articles (e.g., dates, pills) */
@@ -164,7 +163,7 @@ endif;
     .post-list article p:last-child {
     align-self: flex-end; /* Aligns the "Read More" link to the bottom */
     font-weight: bold;
-    color: #2a99ff;
+    color: #6a0d83;
     margin-top: 1rem; /* Optional: Adds spacing from content above */
     }
 
@@ -179,7 +178,7 @@ endif;
     }
 
     .load_more .btn {
-        background-color: #007bff; 
+        background-color: #6a0d83; 
         border: none;
         color: white;
         font-size: 1.5rem;
@@ -191,12 +190,12 @@ endif;
     }
 
     .load_more .btn:hover {
-        background-color: #0056b3; 
+        background-color: #ce4993; 
         transform: scale(1.05); 
     }
 
     .load_more .btn:active {
-        background-color: #004080; 
+        background-color: #6a0d83; 
         transform: scale(0.98); 
     }
 

@@ -3913,3 +3913,14 @@ div.wp-block-columns.alignwide.are-vertically-aligned-top.is-layout-flex.wp-cont
 div.footer-tagline > div.site-info{
 	display:none !important;
 }
+
+/* card styles */
+
+.card {
+    background-color: #fff; 
+    border-radius: 12px !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; 
+    padding: 20px;
+    margin: 15px;
+    transition: box-shadow 0.3s ease-in-out !important;
+} 
