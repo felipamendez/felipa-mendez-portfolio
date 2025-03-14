@@ -19,6 +19,7 @@ endif;
 ?>
 
 <style>
+
     a.button-toggle {
         border-color: #6a0d83;
         color: #6a0d83;
@@ -28,6 +29,9 @@ endif;
         border-color: #ee5d6c !important;
         color: #ee5d6c !important;
     }
+
+
+
 
     a.button-toggle:hover {
         color: #ee5d6c !important;
@@ -120,23 +124,22 @@ endif;
 
     /* Additional Styles for .button-toggle */
     a.button-toggle {
-        border: 2px solid #2a99ff;
-        color: #2a99ff;
+        border: 2px solid #6a0d83;
+        color: #6a0d83;
     }
 
     a.button-toggle.active {
-        border-color: #005A8B;
-        color: #005A8B;
+        border-color: #ce4993;
+        color: #ce4993;
     }
 
     a.button-toggle:hover {
-        color: #005A8B;
-        border-color: #005A8B;
+        color: #ce4993;
+        border-color: #ce4993;
     }
 
     /* Article Titles */
     .post-list h2 {
-        
         font-size: 1.8rem;
         color: #6a0d83 !important;
         margin-bottom: 0.5rem;
@@ -163,7 +166,7 @@ endif;
     .post-list article p:last-child {
     align-self: flex-end; /* Aligns the "Read More" link to the bottom */
     font-weight: bold;
-    color: #6a0d83;
+    color: #6a0d83 !important;
     margin-top: 1rem; /* Optional: Adds spacing from content above */
     }
 
@@ -178,7 +181,7 @@ endif;
     }
 
     .load_more .btn {
-        background-color: #6a0d83; 
+        background-color: #6a0d83 !important; 
         border: none;
         color: white;
         font-size: 1.5rem;
@@ -190,12 +193,12 @@ endif;
     }
 
     .load_more .btn:hover {
-        background-color: #ce4993; 
+        background-color: #ce4993 !important; 
         transform: scale(1.05); 
     }
 
     .load_more .btn:active {
-        background-color: #6a0d83; 
+        background-color: #6a0d83 !important; 
         transform: scale(0.98); 
     }
 
