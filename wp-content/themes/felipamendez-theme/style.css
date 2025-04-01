@@ -411,7 +411,7 @@ textarea {
 	font-size: 100%;
 	margin: 0;
 	vertical-align: baseline;
-	*vertical-align: middle;
+	vertical-align: middle;
 	-webkit-appearance: none;
 	box-sizing: border-box;
 }
@@ -616,7 +616,7 @@ select {
 	font-size: 100%;
 	margin: 0;
 	vertical-align: baseline;
-	*vertical-align: middle;
+	vertical-align: middle;
 	width: 100%;
 	-webkit-appearance: normal;
 	box-sizing: border-box;

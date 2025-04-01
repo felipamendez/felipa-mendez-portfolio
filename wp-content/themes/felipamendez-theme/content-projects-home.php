@@ -150,6 +150,7 @@ endif;
         color: #fb9062 !important;
     }
 
+    
     /* Text within articles (e.g., dates, pills) */
     .post-list p {
         font-size: 1.4rem;
