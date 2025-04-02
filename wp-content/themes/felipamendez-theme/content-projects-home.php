@@ -147,10 +147,9 @@ endif;
     }
 
     h2 > a {
-        color: #fb9062 !important;
+        color: #6a0d83 !important;
     }
 
-    
     /* Text within articles (e.g., dates, pills) */
     .post-list p {
         font-size: 1.4rem;
