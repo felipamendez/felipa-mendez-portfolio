@@ -585,7 +585,7 @@ function tag_filter() {
 							while($arr_posts->have_posts()) : $arr_posts->the_post();
 								if ($template === 'project') {
 									$response .= '<article class="col-12 col-lg-4 col-md-6 align-items-center">';
-										$response .= '<div class=" card shadow pb-6">';
+										$response .= '<div class=" pb-6">';
 											
 											$response .= '<div class="px-lg-3 px-2">';
 												$response .= '<a href="' . get_permalink() . '">';
@@ -668,7 +668,7 @@ function load_more_tag_filter() {
 		while($arr_posts->have_posts()) : $arr_posts->the_post();
 		if ($template === 'project') {
 			$response .= '<article class="col-12 col-lg-4 col-md-6 align-items-center">';
-				$response .= '<div class=" card shadow pb-6">';
+				$response .= '<div class=" pb-6">';
 					
 					$response .= '<div class="px-lg-3 px-2">';
 						$response .= '<a href="' . get_permalink() . '">';
@@ -754,7 +754,7 @@ function remove_tag_filter() {
 		while($arr_posts->have_posts()) : $arr_posts->the_post();
 		if ($template === 'project') {
 			$response .= '<article class="col-12 col-lg-4 col-md-6 align-items-center">';
-				$response .= '<div class=" card shadow pb-6">';
+				$response .= '<div class=" pb-6">';
 					
 					$response .= '<div class="px-lg-3 px-2">';
 						$response .= '<a href="' . get_permalink() . '">';
